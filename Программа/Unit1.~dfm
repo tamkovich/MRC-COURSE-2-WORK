@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 192
+  Top = 125
+  Width = 928
+  Height = 481
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object OpenDialog1: TOpenDialog
+    Left = 744
+    Top = 24
+  end
+  object MainMenu1: TMainMenu
+    Left = 48
+    Top = 40
+    object N1: TMenuItem
+      Caption = #1056#1072#1079#1088#1072#1073#1086#1090#1095#1080#1082#1091
+      object N2: TMenuItem
+        Caption = #1042#1074#1077#1089#1090#1080' '#1089#1077#1082#1090#1091
+        OnClick = N2Click
+      end
+      object N4: TMenuItem
+        Caption = #1042#1099#1081#1090#1080
+        OnClick = N4Click
+      end
+      object N3: TMenuItem
+        Caption = #1042#1099#1074#1077#1089#1090#1080' '#1088#1077#1096#1077#1085#1080#1077
+        OnClick = N3Click
+      end
+      object N5: TMenuItem
+        Caption = #1056#1077#1096#1080#1090#1100
+        OnClick = N5Click
+      end
+      object N6: TMenuItem
+        Caption = #1057#1075#1077#1085#1077#1088#1080#1088#1086#1074#1072#1090#1100
+        OnClick = N6Click
+      end
+    end
+  end
+end

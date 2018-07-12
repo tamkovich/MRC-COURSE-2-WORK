@@ -1,0 +1,10 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=helpDoc.chm
+Contents file=HelpDoc.hhc
+Display compile progress=No
+Language=0x419 Русский (Россия)
+
+
+[INFOTYPES]
+
